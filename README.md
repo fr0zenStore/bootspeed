@@ -14,7 +14,7 @@ Tema ultraleggero e ottimizzato SEO basato su Bootscore, compatibile con PHP 8.3
 - Compatibile con PHP 8.3.
 
 ## 📝 Licenza
-Distribuito sotto licenza GPL-2.0-or-later.
+Distribuito sotto licenza GPL-3.0-or-later.
 
 ## ✨ Autore
 Creato da **fr0zen** - [GitHub](https://github.com/fr0zenStore)

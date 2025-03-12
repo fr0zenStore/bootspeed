@@ -1,0 +1,31 @@
+/*
+Theme Name: Bootspeed
+Theme URI: https://github.com/fr0zenStore/bootspeed
+Author: fr0zen
+Author URI: https://github.com/fr0zenStore
+Description: Tema WordPress ultraleggero e veloce basato su Bootscore.
+Version: 1.0.0
+License: GPL-2.0-or-later
+Tags: leggero, veloce, seo, bootstrap
+Text Domain: bootspeed
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}

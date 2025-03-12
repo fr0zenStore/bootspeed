@@ -27,9 +27,16 @@ add_action('init', 'bootspeed_register_menus');
 
 // Caricamento di Bootstrap e degli stili personalizzati
 function bootspeed_enqueue_scripts() {
+    // Bootstrap CSS da CDN
     wp_enqueue_style('bootscore', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css', [], '5.3.3');
+    // Stile del tema
     wp_enqueue_style('main-style', get_stylesheet_uri(), [], '1.0.0');
+
+    // Bootstrap JS (differito)
     wp_enqueue_script('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js', [], '5.3.3', true);
+
+    // Google Fonts caricati in modo ottimizzato
+    wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap', [], null);
 }
 add_action('wp_enqueue_scripts', 'bootspeed_enqueue_scripts');
 ?>
